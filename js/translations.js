@@ -232,9 +232,9 @@ const TRANSLATIONS = {
       linkedinCta: "LinkedIn",
       instagramCta: "Instagram",
       agentHeading: "Book time with me",
-      agentComingSoon:
-        "Coming soon: chat with my AI assistant here and it will find a time on my calendar automatically.",
-      agentBadge: "AI scheduling assistant — coming soon",
+      agentIntro:
+        "Chat with my AI assistant below — ask it about my work and ventures, or let it help you find 10 minutes on my calendar.",
+      agentBadge: "AI scheduling assistant",
     },
     footer: {
       tagline: "Jimmy Being — Revenue & Growth Leader, Entrepreneur, and Yoga Instructor.",
@@ -460,9 +460,9 @@ const TRANSLATIONS = {
       linkedinCta: "LinkedIn",
       instagramCta: "Instagram",
       agentHeading: "Agenda una reunión conmigo",
-      agentComingSoon:
-        "Próximamente: conversa aquí con mi asistente de IA y coordinará automáticamente un horario en mi calendario.",
-      agentBadge: "Asistente de agendamiento con IA — próximamente",
+      agentIntro:
+        "Conversa aquí abajo con mi asistente de IA — pregúntale sobre mi trabajo y emprendimientos, o pídele que te ayude a encontrar 10 minutos en mi calendario.",
+      agentBadge: "Asistente de agendamiento con IA",
     },
     footer: {
       tagline: "Jimmy Being — Líder en Revenue & Growth, Emprendedor e Instructor de Yoga.",
@@ -688,9 +688,9 @@ const TRANSLATIONS = {
       linkedinCta: "LinkedIn",
       instagramCta: "Instagram",
       agentHeading: "Agende um horário comigo",
-      agentComingSoon:
-        "Em breve: converse aqui com meu assistente de IA e ele encontrará automaticamente um horário na minha agenda.",
-      agentBadge: "Assistente de agendamento com IA — em breve",
+      agentIntro:
+        "Converse aqui embaixo com meu assistente de IA — pergunte sobre meu trabalho e empreendimentos, ou peça ajuda para encontrar 10 minutos na minha agenda.",
+      agentBadge: "Assistente de agendamento com IA",
     },
     footer: {
       tagline: "Jimmy Being — Líder em Revenue & Growth, Empreendedor e Instrutor de Yoga.",

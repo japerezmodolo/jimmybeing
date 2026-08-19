@@ -71,18 +71,19 @@
     </div>
 
     <div class="hero-video">
-      <!-- TODO (ElevenLabs / avatar video):
-           Replace this placeholder block with a <video> element per language,
-           e.g. assets/video/greeting-en.mp4, greeting-es.mp4, greeting-pt.mp4
-           The play button below currently just opens a "coming soon" note. -->
-      <div class="video-placeholder" id="videoPlaceholder">
+      <!-- Greeting video per language: drop the files in assets/video/ named
+           greeting-en.mp4, greeting-es.mp4, greeting-pt.mp4 — this block picks
+           the right one automatically based on the selected language. Until a
+           file exists for a language, it gracefully shows "Coming soon". -->
+      <div class="video-placeholder no-video" id="videoPlaceholder">
+        <video id="greetingVideo" class="greeting-video" playsinline preload="metadata"></video>
         <div class="video-ring">
-          <button class="play-btn" id="playBtn" aria-label="Play video greeting">
+          <button class="play-btn" id="playBtn" aria-label="Play video greeting" type="button">
             <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
         <p class="video-label" data-i18n="hero.videoLabel">Video greeting</p>
-        <p class="video-comingsoon" data-i18n="hero.videoComingSoon">Coming soon.</p>
+        <p class="video-comingsoon" id="videoComingSoon" data-i18n="hero.videoComingSoon">Coming soon.</p>
         <span class="badge badge-soft" data-i18n="hero.videoBadge">Powered by ElevenLabs AI voice</span>
       </div>
     </div>
@@ -163,18 +164,14 @@
     </div>
 
     <div class="contact-right agent-card">
-      <!-- TODO (AI booking agent):
-           Replace this placeholder with the ElevenLabs Conversational AI
-           widget / embed script once the agent + Google Calendar
-           integration is ready. -->
-      <span class="badge badge-soft" data-i18n="contact.agentBadge">AI scheduling assistant — coming soon</span>
+      <!-- Live ElevenLabs Conversational AI widget. main.js injects the
+           <elevenlabs-convai> tag here with the agent-id that matches the
+           selected language (EN/ES/PT), so switching language switches which
+           voice/agent answers. -->
+      <span class="badge badge-soft" data-i18n="contact.agentBadge">AI scheduling assistant</span>
       <h3 data-i18n="contact.agentHeading">Book time with me</h3>
-      <p data-i18n="contact.agentComingSoon">Coming soon.</p>
-      <div class="agent-mock">
-        <div class="agent-mock-dot"></div>
-        <div class="agent-mock-dot"></div>
-        <div class="agent-mock-dot"></div>
-      </div>
+      <p data-i18n="contact.agentIntro">Chat with my AI assistant below.</p>
+      <div class="agent-widget-wrap" id="agentWidgetContainer"></div>
     </div>
   </div>
 </section>
@@ -187,13 +184,7 @@
   </div>
 </footer>
 
-<div class="video-modal" id="videoModal">
-  <div class="video-modal-inner">
-    <button class="video-modal-close" id="videoModalClose" aria-label="Close">×</button>
-    <p data-i18n="hero.videoComingSoon">Coming soon.</p>
-  </div>
-</div>
-
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 <script src="js/translations.js"></script>
 <script src="js/main.js"></script>
 </body>

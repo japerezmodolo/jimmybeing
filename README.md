@@ -159,37 +159,77 @@ el momento.
 
 ---
 
-## 6. Fase 2 — lo que falta para las funciones de IA
+## 6. Fase 2 — estado de las funciones de IA
 
-Estos dos módulos quedaron con espacios reservados en el sitio, listos para
-integrarse cuando tengas las cuentas y credenciales:
+### a) Video de saludo con tu voz clonada (ElevenLabs) — falta solo subir los archivos
 
-### a) Video de saludo con tu voz clonada (ElevenLabs)
+El código ya está listo para mostrar el video real en cuanto los archivos
+existan — no hace falta tocar nada más. Solo copia los 3 videos generados en
+ElevenLabs Avatars a la carpeta `assets/video/` con **exactamente** estos
+nombres:
 
-- Crea una cuenta en ElevenLabs y clona tu voz (necesitas ~1–3 minutos de
-  audio tuyo, limpio, sin ruido de fondo).
-- Genera el audio del guion de saludo en los 3 idiomas.
-- Puedes usar ese audio solo, o combinarlo con un avatar/video tuyo
-  (herramientas tipo HeyGen o Synthesia permiten "doblar" un video tuyo con
-  el audio de ElevenLabs, sincronizando labios).
-- Cuando tengas los 3 videos (`greeting-en.mp4`, `greeting-es.mp4`,
-  `greeting-pt.mp4`), yo reemplazo el círculo "Coming soon" de la portada
-  por un reproductor de video real que cambia según el idioma elegido —
-  está marcado con un comentario `TODO` en `index.html` para ubicarlo
-  rápido.
+```
+assets/video/greeting-en.mp4
+assets/video/greeting-es.mp4
+assets/video/greeting-pt.mp4
+```
 
-### b) Agente conversacional que agenda reuniones en tu Google Calendar
+Mientras un idioma no tenga su archivo, el círculo sigue mostrando "Coming
+soon" automáticamente (no rompe nada). En cuanto detecta el archivo, muestra
+el video con botón de play, y cambia solo según el idioma que el visitante
+elija arriba en el menú.
 
-- Necesitas: una cuenta de ElevenLabs Conversational AI (o alternativa como
-  un agente construido con la API de Claude) + credenciales de Google
-  Calendar API (OAuth) conectadas a tu Gmail personal.
-- El flujo típico: el agente conversa con el visitante → revisa tu
-  disponibilidad vía Google Calendar API → propone horarios → crea el
-  evento y envía la invitación.
-- Cuando tengas esas cuentas/API keys listas, yo integro el widget del
-  agente en la tarjeta "Book time with me" de la sección de contacto (ya
-  está marcada con `TODO` en `index.html`).
+### b) Agente conversacional (ElevenLabs Conversational AI) — ya está en vivo
 
-No hace falta que hagas esto ahora — el sitio funciona perfectamente sin
-ello: mientras tanto, el botón "Email Me" en la sección de contacto ya es
-funcional y te llega directo al correo.
+Los 3 agentes (EN/ES/PT) están creados y conectados en la tarjeta "Book time
+with me" de la sección de contacto — cada uno con tu voz clonada, su propio
+saludo, y contexto sobre tu trayectoria. Cambiar el idioma del sitio cambia
+automáticamente qué agente responde.
+
+Los agentes guían la conversación hacia un Google Meet de 10 minutos usando
+tu link de **Google Calendar → Appointment Schedules** (no usamos Cal.com:
+el link nativo de Calendar ya crea el Meet automáticamente y era más simple
+de conectar). El agente nunca deriva a WhatsApp para agendar — WhatsApp
+queda solo para mensajes rápidos e informales, como pediste.
+
+Para editar el "cerebro" del agente (qué sabe, cómo habla, el link que
+comparte), entra a https://elevenlabs.io/app/conversational-ai y abre
+"Jimmy Being — Website Assistant (EN/ES/PT)". Ver la sección 7 más abajo
+para una guía de qué mirar ahí.
+
+El botón "Email Me" y el de WhatsApp siguen funcionando igual, como
+alternativas directas.
+
+---
+
+## 7. Cómo usar la plataforma de ElevenLabs Conversational AI (guía rápida)
+
+Como pediste aprender a manejarla tú mismo, esto es lo importante a tener
+en cuenta:
+
+- **Cada agente es independiente.** Hay 3 agentes separados (uno por
+  idioma), no uno solo con "modo idioma". Si cambias algo en el agente EN,
+  no se refleja en ES ni PT — hay que repetir el cambio en cada uno.
+- **Pestaña "Agent"**: ahí está el `System prompt` (las instrucciones que
+  definen quién es Jimmy, qué sabe el agente, y cómo debe comportarse) y el
+  `First message` (lo primero que dice al abrir el chat). Si quieres que el
+  agente sepa algo nuevo de ti, o cambie de tono, es aquí.
+- **Pestaña "Voice"**: el `Voice ID` debe ser tu voz clonada, y el `Model`
+  debe ser `Flash v2.5` (o `Turbo v2.5`) para ES/PT, y `Flash v2` (o
+  `Turbo v2`) está bien para EN — si mezclas mal esto da error de
+  validación al guardar.
+- **Pestaña "Widget"**: acá están los colores y el estilo visual del chat
+  (ya configurados con tu paleta wine/sage/gold). Cuidado: si tocas algo
+  acá y guardas, a veces el editor visual puede resetear otros campos que
+  no se ven en esa pestaña — después de guardar, siempre vuelve a revisar
+  las otras pestañas (Agent, Voice) para confirmar que nada cambió sin que
+  lo notaras.
+- **Widget embed / agent-id**: el código HTML de tu sitio ya inyecta el
+  agente correcto según el idioma (`js/main.js`, función
+  `updateAgentWidget`). Si alguna vez duplicas/creas un agente nuevo desde
+  cero en ElevenLabs, el `agent-id` cambia y hay que actualizarlo ahí
+  también.
+- **Pruébalo en la plataforma primero**: cada agente tiene un botón de
+  "Test" en el panel de ElevenLabs para conversar con él directo, sin tener
+  que publicar el sitio — úsalo para revisar que el tono y las respuestas
+  te convencen antes de probarlo en jimmybeing.com.

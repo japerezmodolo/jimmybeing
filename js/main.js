@@ -11,6 +11,25 @@
   var DEFAULT_LANG = "en";
   var SUPPORTED = ["en", "es", "pt"];
 
+  // ElevenLabs Conversational AI agent per language (Jimmy Being — Website
+  // Assistant EN/ES/PT). Each one has its own cloned voice, first message,
+  // and system prompt, and all three know about the Google Calendar booking
+  // link so they can guide visitors to a 10-minute Meet.
+  var AGENT_IDS = {
+    en: "agent_5001m0c9zz6bfk8993w9aa28qb35",
+    es: "agent_5801m0can61aem2v2bay0ckvke8q",
+    pt: "agent_9601m0cankk9er4ttv8e50cbnk8q",
+  };
+
+  // Greeting video per language. Drop the generated files here with these
+  // exact names — assets/video/greeting-en.mp4, greeting-es.mp4,
+  // greeting-pt.mp4 — no code changes needed once they exist.
+  var VIDEO_SRC = {
+    en: "assets/video/greeting-en.mp4",
+    es: "assets/video/greeting-es.mp4",
+    pt: "assets/video/greeting-pt.mp4",
+  };
+
   function getStoredLang() {
     try {
       var stored = window.localStorage.getItem("jimmybeing_lang");
@@ -179,6 +198,31 @@
     container.innerHTML = html;
   }
 
+  function loadGreetingVideo(lang) {
+    var frame = document.getElementById("videoPlaceholder");
+    var video = document.getElementById("greetingVideo");
+    if (!frame || !video) return;
+    video.pause();
+    video.removeAttribute("controls");
+    frame.classList.remove("is-playing");
+    var src = VIDEO_SRC[lang] || VIDEO_SRC[DEFAULT_LANG];
+    video.src = src;
+    video.load();
+  }
+
+  function updateAgentWidget(lang) {
+    var container = document.getElementById("agentWidgetContainer");
+    if (!container) return;
+    var agentId = AGENT_IDS[lang] || AGENT_IDS[DEFAULT_LANG];
+    // Rebuild the custom element from scratch on language change so the
+    // widget re-initializes cleanly with the new agent-id (voice, prompt,
+    // and first message all change per language).
+    container.innerHTML = "";
+    var widget = document.createElement("elevenlabs-convai");
+    widget.setAttribute("agent-id", agentId);
+    container.appendChild(widget);
+  }
+
   function applyTranslations(lang) {
     var t = TRANSLATIONS[lang] || TRANSLATIONS[DEFAULT_LANG];
 
@@ -221,6 +265,8 @@
     renderEducation(t);
     renderSkills(t);
     renderPersonal(t);
+    loadGreetingVideo(lang);
+    updateAgentWidget(lang);
 
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
@@ -238,26 +284,33 @@
     });
   }
 
-  function initVideoModal() {
-    var placeholder = document.getElementById("videoPlaceholder");
-    var modal = document.getElementById("videoModal");
-    var closeBtn = document.getElementById("videoModalClose");
-    if (!placeholder || !modal || !closeBtn) return;
+  function initGreetingVideo() {
+    var frame = document.getElementById("videoPlaceholder");
+    var video = document.getElementById("greetingVideo");
+    var playBtn = document.getElementById("playBtn");
+    if (!frame || !video || !playBtn) return;
 
-    function openModal() {
-      modal.classList.add("open");
-    }
-    function closeModal() {
-      modal.classList.remove("open");
-    }
-
-    placeholder.addEventListener("click", openModal);
-    closeBtn.addEventListener("click", closeModal);
-    modal.addEventListener("click", function (e) {
-      if (e.target === modal) closeModal();
+    video.addEventListener("loadeddata", function () {
+      frame.classList.add("has-video");
+      frame.classList.remove("no-video");
     });
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") closeModal();
+    video.addEventListener("error", function () {
+      frame.classList.add("no-video");
+      frame.classList.remove("has-video");
+    });
+    video.addEventListener("pause", function () {
+      frame.classList.remove("is-playing");
+    });
+    video.addEventListener("ended", function () {
+      frame.classList.remove("is-playing");
+    });
+
+    playBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      if (frame.classList.contains("no-video")) return;
+      video.setAttribute("controls", "controls");
+      video.play();
+      frame.classList.add("is-playing");
     });
   }
 
@@ -285,9 +338,12 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     var initialLang = getStoredLang() || DEFAULT_LANG;
+    // initGreetingVideo attaches the video's loadeddata/error listeners —
+    // must run before applyTranslations sets the first video src, so the
+    // "coming soon" fallback state is captured correctly on first load.
+    initGreetingVideo();
     applyTranslations(initialLang);
     initLangSwitch();
-    initVideoModal();
     initNavToggle();
     initHeaderScroll();
   });
