@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jimmy Being — Jaime Pérez Modolo</title>
+<meta name="description" content="Jimmy Being — Revenue & Growth Leader, Entrepreneur, and Yoga Instructor. Personal brand of Jaime Pérez Modolo." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22%235C2732%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22%23EFC868%22 font-family=%22sans-serif%22>J</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="#top" class="logo-link" aria-label="Jimmy Being — Home">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="44" height="44" role="img" aria-label="Jimmy Being logo">
+        <defs>
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+            .signature { font-family: 'Pacifico', cursive; font-size: 18px; fill: #5C2732; }
+          </style>
+          <clipPath id="contentClip">
+            <circle cx="110" cy="110" r="98"/>
+          </clipPath>
+        </defs>
+        <circle cx="110" cy="110" r="105" fill="#ffffff"/>
+        <circle cx="110" cy="110" r="101" fill="none" stroke="#7A3441" stroke-width="1.5"/>
+        <g clip-path="url(#contentClip)">
+          <rect x="0" y="0" width="220" height="98" fill="#7FADA3"/>
+          <rect x="0" y="98" width="220" height="24" fill="#ffffff"/>
+          <rect x="0" y="122" width="220" height="98" fill="#EFC868"/>
+          <rect x="0" y="88" width="220" height="3" fill="#ffffff"/>
+          <rect x="0" y="129" width="220" height="3" fill="#ffffff"/>
+        </g>
+        <circle cx="110" cy="110" r="98" fill="none" stroke="#7A3441" stroke-width="2"/>
+        <text x="99" y="116" class="signature" text-anchor="end">Jimmy</text>
+        <polygon points="110.5,101 105,111 108.5,111 106.5,119 116,107.5 111,107.5" fill="none" stroke="#7A3441" stroke-width="1.5" stroke-linejoin="round"/>
+        <text x="121" y="116" class="signature" text-anchor="start">Being</text>
+      </svg>
+    </a>
+    <nav class="main-nav">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#experience" data-i18n="nav.experience">Journey</a>
+      <a href="#personal" data-i18n="nav.personal">Beyond Work</a>
+      <a href="#connect" data-i18n="nav.connect">Connect</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Language switch">
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="pt">PT</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Personal Brand</p>
+      <h1 data-i18n="hero.title">Jimmy Being</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Revenue &amp; Growth Leader.</p>
+      <div class="hero-cta-row">
+        <a href="#connect" class="btn btn-primary" data-i18n="hero.ctaPrimary">Get in Touch</a>
+        <a href="#experience" class="btn btn-ghost" data-i18n="hero.ctaSecondary">See My Journey</a>
+      </div>
+    </div>
+
+    <div class="hero-video">
+      <!-- TODO (ElevenLabs / avatar video):
+           Replace this placeholder block with a <video> element per language,
+           e.g. assets/video/greeting-en.mp4, greeting-es.mp4, greeting-pt.mp4
+           The play button below currently just opens a "coming soon" note. -->
+      <div class="video-placeholder" id="videoPlaceholder">
+        <div class="video-ring">
+          <button class="play-btn" id="playBtn" aria-label="Play video greeting">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+        <p class="video-label" data-i18n="hero.videoLabel">Video greeting</p>
+        <p class="video-comingsoon" data-i18n="hero.videoComingSoon">Coming soon.</p>
+        <span class="badge badge-soft" data-i18n="hero.videoBadge">Powered by ElevenLabs AI voice</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about-inner">
+    <h2 data-i18n="about.heading">About Me</h2>
+    <p data-i18n="about.body1">...</p>
+    <p data-i18n="about.body2">...</p>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE / TIMELINE ============ -->
+<section class="experience" id="experience">
+  <div class="container">
+    <h2 data-i18n="experience.heading">Professional Journey</h2>
+    <p class="section-intro" data-i18n="experience.intro">...</p>
+    <div class="timeline" id="timelineContainer">
+      <!-- populated by JS from TRANSLATIONS[lang].experience.timeline -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="education">
+  <div class="container">
+    <h2 data-i18n="education.heading">Education</h2>
+    <div class="education-list" id="educationList">
+      <!-- populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="skills">
+  <div class="container">
+    <h2 data-i18n="skills.heading">Skills</h2>
+    <div class="skills-grid" id="skillsGrid">
+      <!-- populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONAL / BEYOND WORK ============ -->
+<section class="personal" id="personal">
+  <div class="container personal-inner">
+    <div>
+      <h2 data-i18n="personal.heading">Beyond Work</h2>
+      <p data-i18n="personal.body">...</p>
+    </div>
+    <ul class="personal-list" id="personalList">
+      <!-- populated by JS -->
+    </ul>
+  </div>
+</section>
+
+<!-- ============ CONTACT / BOOKING ============ -->
+<section class="contact" id="connect">
+  <div class="container contact-inner">
+    <div class="contact-left">
+      <h2 data-i18n="contact.heading">Let's Connect</h2>
+      <p data-i18n="contact.body">...</p>
+      <!-- TODO: this mailto link is the temporary fallback until the
+           AI booking agent (calendar integration) goes live. -->
+      <a href="mailto:japerezmodolo@gmail.com" class="btn btn-primary" data-i18n="contact.emailCta">Email Me</a>
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/jaime-p%C3%A9rez-modolo-0a7b57b8/" class="social-link" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">in</a>
+        <a href="https://www.instagram.com/jimmy.being/" class="social-link" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">ig</a>
+      </div>
+    </div>
+
+    <div class="contact-right agent-card">
+      <!-- TODO (AI booking agent):
+           Replace this placeholder with the ElevenLabs Conversational AI
+           widget / embed script once the agent + Google Calendar
+           integration is ready. -->
+      <span class="badge badge-soft" data-i18n="contact.agentBadge">AI scheduling assistant — coming soon</span>
+      <h3 data-i18n="contact.agentHeading">Book time with me</h3>
+      <p data-i18n="contact.agentComingSoon">Coming soon.</p>
+      <div class="agent-mock">
+        <div class="agent-mock-dot"></div>
+        <div class="agent-mock-dot"></div>
+        <div class="agent-mock-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p data-i18n="footer.tagline">Jimmy Being</p>
+    <p class="footer-rights" data-i18n="footer.rights">© 2026</p>
+  </div>
+</footer>
+
+<div class="video-modal" id="videoModal">
+  <div class="video-modal-inner">
+    <button class="video-modal-close" id="videoModalClose" aria-label="Close">×</button>
+    <p data-i18n="hero.videoComingSoon">Coming soon.</p>
+  </div>
+</div>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
