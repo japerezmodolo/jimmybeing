@@ -254,6 +254,11 @@ section:nth-of-type(even) { background: var(--white); }
 .contact h2, .contact h3 { color: var(--white); }
 .contact p { color: rgba(255,255,255,0.72); }
 .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: stretch; }
+.contact-cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+.contact .btn-primary { background: var(--gold); color: var(--ink-2); }
+.contact .btn-primary:hover { background: #e3ba52; }
+.contact .btn-ghost { border-color: rgba(255, 255, 255, 0.55); color: var(--white); }
+.contact .btn-ghost:hover { background: rgba(255, 255, 255, 0.12); color: var(--white); }
 .social-row { display: flex; gap: 12px; margin-top: 22px; }
 .social-link {
   width: 40px; height: 40px; border-radius: 50%;

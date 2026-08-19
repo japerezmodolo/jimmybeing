@@ -208,6 +208,15 @@
       if (value !== null) el.setAttribute("title", value);
     });
 
+    var whatsappLink = document.getElementById("whatsappLink");
+    if (whatsappLink && t.contact.whatsappMessage) {
+      var baseUrl = whatsappLink.getAttribute("href").split("?")[0];
+      whatsappLink.setAttribute(
+        "href",
+        baseUrl + "?text=" + encodeURIComponent(t.contact.whatsappMessage)
+      );
+    }
+
     renderTimeline(t);
     renderEducation(t);
     renderSkills(t);
