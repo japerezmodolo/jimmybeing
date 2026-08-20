@@ -26,7 +26,7 @@ const TRANSLATIONS = {
       eyebrow: "Personal Brand",
       title: "Jimmy Being",
       subtitle:
-        "Revenue &amp; Growth, Leadership and Entrepreneur. I build & work with purspose across Latin America.",
+        "Revenue &amp; Growth, Leadership and Entrepreneur. I build & work with purpose across Latin America.",
       ctaPrimary: "Get in Touch",
       ctaSecondary: "See My Journey",
       videoLabel: "Video greeting",
@@ -351,7 +351,7 @@ const TRANSLATIONS = {
           bullets: [
             "TODO (por favor confirma/ajusta): Co-fundé Sowl, una marca chilena de kombucha. Participé en el desarrollo de producto, la construcción de marca y su lanzamiento al mercado.",
           ],
-          l
+          
           instagram: "https://www.instagram.com/sowl.cl/",
         },
         {
