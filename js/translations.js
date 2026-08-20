@@ -253,7 +253,7 @@ const TRANSLATIONS = {
       eyebrow: "Marca Personal",
       title: "Jimmy Being",
       subtitle:
-        "Revenue &amp; Growth, buen líder y emprendedor. Construyo y trabajo en empresas con propósito en LATAM.",
+        "Revenue &amp; Growth, líder y emprendedor. Construyo y trabajo en empresas con propósito en LATAM.",
       ctaPrimary: "Contáctame",
       ctaSecondary: "Conoce mi Trayectoria",
       videoLabel: "Saludo en video",
@@ -264,7 +264,7 @@ const TRANSLATIONS = {
     about: {
       heading: "Sobre Mí",
       body1:
-        "Soy Jaime Pérez Modolo, la mayoría me conoce como Jimmy. Soy Ingeniero Civil Industrial y llevo más de 8 años construyendo y escalando productos en Chile, México, Colombia y Perú. Hoy lidero Pop Estate, una startup Proptech, como Gerente General.",
+        "Mi nombre es Jaime Pérez Modolo, pero mis amigos me dicen Jimmy. Soy Ingeniero Civil Industrial y llevo más de 8 años construyendo y escalando productos en Chile, México, Colombia y Perú. Hoy lidero Pop Estate, una startup Proptech, como Gerente General.",
       body2:
         "Fuera del trabajo me gusta aprender y desafiarme constantemente. Practico surf, yoga, apnea y trato de escaparme al nordeste de Brasil a hacer kitesurf de vez en cuando. Creo que el crecimiento profesional y personal van de la mano, así que este sitio es donde conviven ambas historias.",
     },
@@ -461,7 +461,7 @@ const TRANSLATIONS = {
       agentBadge: "Asistente de agendamiento con IA",
     },
     footer: {
-      tagline: "Jimmy Being: Revenue &amp; Growth, buen líder y emprendedor.",
+      tagline: "Jimmy Being: Revenue &amp; Growth, líder y emprendedor.",
       rights: "© 2026 Jaime Pérez Modolo. Todos los derechos reservados.",
     },
   },
