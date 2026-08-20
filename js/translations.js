@@ -39,7 +39,7 @@ const TRANSLATIONS = {
       body1:
         "I'm Jaime Pérez Modolo, most people know me as Jimmy. I'm an Industrial Civil Engineer, and for the past 8+ years I've been building and scaling companies across Chile, Mexico, Colombia, and Peru. These days I lead Pop Estate, a Proptech startup, as CEO and Head of Revenue.",
       body2:
-        "Outside of work, I'm a certified yoga instructor, a freediver, and a kitesurfer. I think professional and personal growth go hand in hand, so this site is where both sides of my story live.",
+        "Outside of work, I like to surf, practice yoga, freediving and I try to visit the north-east of Brasil to become a better Kitesurfer. I think professional and personal growth go hand in hand, so this site is where both sides of my story live.",
     },
     experience: {
       heading: "Professional Journey",
@@ -491,7 +491,7 @@ const TRANSLATIONS = {
       body1:
         "Sou Jaime Pérez Modolo, a maioria me conhece como Jimmy. Sou Engenheiro Civil Industrial e há mais de 8 anos construo e escalo produtos no Chile, México, Colômbia e Peru. Hoje lidero a Pop Estate, uma startup Proptech como CEO.",
       body2:
-        "Fora do trabalho, eu faço surf, yoga, apneia e gosto do visitar o nordeste do brasil para praticar kitesurfista. Acredito que o crescimento profissional e pessoal andam juntos, por isso este site é onde as duas histórias se encontram.",
+        "Fora do trabalho, eu faço surf, yoga, apneia e gosto do visitar o nordeste do brasil para praticar kitesurf. Acredito que o crescimento profissional e pessoal andam juntos, por isso este site é onde as duas histórias se encontram.",
     },
     experience: {
       heading: "Trajetória Profissional",
