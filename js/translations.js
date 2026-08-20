@@ -79,7 +79,7 @@ const TRANSLATIONS = {
           tag: "Own Venture",
           isVenture: true,
           bullets: [
-            "A motivational social network built around accountability: instead of followers, people had \"supporters\" who helped them achieve their personal goals.",
+            "A motivational network built around accountability: instead of followers, people had \"supporters\" who helped them achieve their personal goals.",
           ],
           linkedinPosts: [],
           instagram: "https://www.instagram.com/kudoz.app/",
@@ -306,7 +306,7 @@ const TRANSLATIONS = {
           tag: "Emprendimiento Propio",
           isVenture: true,
           bullets: [
-            "Una red social motivacional basada en accountability: en vez de followers, las personas tenían \"supporters\" que las ayudaban a lograr sus objetivos personales.",
+            "Una red motivacional basada en accountability: en vez de followers, las personas tenían \"supporters\" que los incentivaban a lograr sus objetivos personales.",
           ],
           
           instagram: "https://www.instagram.com/kudoz.app/",
