@@ -122,7 +122,7 @@ const TRANSLATIONS = {
           tag: "Own Venture",
           isVenture: true,
           bullets: [
-            "TODO (please confirm/refine): Co-founded Sowl, a Chilean kombucha brand. I was involved in product development, brand building, and go-to-market from launch.",
+            "Co-founded Sowl, a Chilean kombucha brand. I was involved in product development, brand building, and go-to-market from launch.",
           ],
          
           instagram: "https://www.instagram.com/sowl.cl/",
@@ -349,7 +349,7 @@ const TRANSLATIONS = {
           tag: "Emprendimiento Propio",
           isVenture: true,
           bullets: [
-            "TODO (por favor confirma/ajusta): Co-fundé Sowl, una marca chilena de kombucha. Participé en el desarrollo de producto, la construcción de marca y su lanzamiento al mercado.",
+            "Co-fundé Sowl, una marca chilena de kombucha. Participé en el desarrollo de producto, la construcción de marca y su lanzamiento al mercado.",
           ],
           
           instagram: "https://www.instagram.com/sowl.cl/",
@@ -573,7 +573,7 @@ const TRANSLATIONS = {
           tag: "Empreendimento Próprio",
           isVenture: true,
           bullets: [
-            "TODO (favor confirmar/ajustar): Cofundei a Sowl, uma marca chilena de kombucha. Participei do desenvolvimento do produto, construção de marca e lançamento no mercado.",
+            "Cofundei a Sowl, uma marca chilena de kombucha. Participei do desenvolvimento do produto, construção de marca e lançamento no mercado.",
           ],
           
           instagram: "https://www.instagram.com/sowl.cl/",
