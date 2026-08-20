@@ -26,25 +26,25 @@ const TRANSLATIONS = {
       eyebrow: "Personal Brand",
       title: "Jimmy Being",
       subtitle:
-        "Revenue &amp; Growth Leader · Entrepreneur · Yoga Instructor — building purposeful companies across Latin America.",
+        "Revenue &amp; Growth Leader, entrepreneur, and yoga instructor. I build purposeful companies across Latin America.",
       ctaPrimary: "Get in Touch",
       ctaSecondary: "See My Journey",
       videoLabel: "Video greeting",
       videoComingSoon:
-        "Coming soon — a personal greeting in your language, in my own voice.",
+        "Coming soon: a personal greeting in your language, in my own voice.",
       videoBadge: "Powered by ElevenLabs AI voice",
     },
     about: {
       heading: "About Me",
       body1:
-        "I'm Jaime Pérez Modolo — known as Jimmy — an Industrial Civil Engineer with 8+ years of experience building and scaling companies across Chile, Mexico, Colombia, and Peru. I currently lead Pop Estate, a Proptech startup, as CEO &amp; Head of Revenue.",
+        "I'm Jaime Pérez Modolo, most people know me as Jimmy. I'm an Industrial Civil Engineer, and for the past 8+ years I've been building and scaling companies across Chile, Mexico, Colombia, and Peru. These days I lead Pop Estate, a Proptech startup, as CEO and Head of Revenue.",
       body2:
-        "Beyond the boardroom, I'm a certified yoga instructor, a freediver, a kitesurfer, and someone who believes professional and personal growth are part of the same journey. This site is where both stories live.",
+        "Outside of work, I'm a certified yoga instructor, a freediver, and a kitesurfer. I think professional and personal growth go hand in hand, so this site is where both sides of my story live.",
     },
     experience: {
       heading: "Professional Journey",
       intro:
-        "From engineering to renewable energy, HR tech, and now Proptech — a decade of building things that matter, plus two ventures of my own.",
+        "I started in engineering, moved into renewable energy, then HR tech, and now Proptech. Ten years building things that matter, plus two ventures of my own along the way.",
       ventureBadge: "Venture",
       linkedinLabel: "LinkedIn post",
       featuredPostsLabel: "Featured LinkedIn posts",
@@ -122,7 +122,7 @@ const TRANSLATIONS = {
           tag: "Own Venture",
           isVenture: true,
           bullets: [
-            "TODO (please confirm/refine): Co-founded Sowl, a Chilean kombucha brand — involved in product development, brand building, and go-to-market from launch.",
+            "TODO (please confirm/refine): Co-founded Sowl, a Chilean kombucha brand. I was involved in product development, brand building, and go-to-market from launch.",
           ],
           linkedinPosts: [],
           instagram: "https://www.instagram.com/sowl.cl/",
@@ -211,14 +211,14 @@ const TRANSLATIONS = {
     },
     personal: {
       heading: "Beyond Work",
-      body: "Yoga instructor, freediver, and lifelong athlete. I believe in slowing down to move faster — meditation and movement keep me grounded while building fast-growing companies.",
+      body: "Yoga instructor, freediver, and lifelong athlete. I believe in slowing down to move faster, meditation and movement keep me grounded while I build fast-growing companies.",
       items: [
         "200h certified Yoga Instructor (YTT, 2019)",
         "Freediving L1 (SSI) &amp; Stress and Rescue Diving (SSI) certified",
         "10-day silent Vipassana meditation retreat",
         "CPR &amp; First Aid certified (React Right)",
-        "Work &amp; Holiday Visa — Sydney, Australia (2017–2019)",
-        "Social volunteering — Atacama Region, Chile (2015), organized by FEUC",
+        "Work &amp; Holiday Visa, Sydney, Australia (2017–2019)",
+        "Social volunteering in the Atacama Region, Chile (2015), organized by FEUC",
         "Interests: kitesurfing, surfing, soccer, yoga",
         "Chilean and Italian nationality",
       ],
@@ -233,11 +233,11 @@ const TRANSLATIONS = {
       instagramCta: "Instagram",
       agentHeading: "Book time with me",
       agentIntro:
-        "Chat with my AI assistant below — ask it about my work and ventures, or let it help you find 10 minutes on my calendar.",
+        "Chat with my AI assistant below. Ask it about my work and ventures, or let it help you find 10 minutes on my calendar.",
       agentBadge: "AI scheduling assistant",
     },
     footer: {
-      tagline: "Jimmy Being — Revenue & Growth Leader, Entrepreneur, and Yoga Instructor.",
+      tagline: "Jimmy Being: Revenue & Growth Leader, Entrepreneur, and Yoga Instructor.",
       rights: "© 2026 Jaime Pérez Modolo. All rights reserved.",
     },
   },
@@ -254,25 +254,25 @@ const TRANSLATIONS = {
       eyebrow: "Marca Personal",
       title: "Jimmy Being",
       subtitle:
-        "Líder en Revenue &amp; Growth · Emprendedor · Instructor de Yoga — construyendo empresas con propósito en América Latina.",
+        "Líder en Revenue &amp; Growth, emprendedor e instructor de yoga. Construyo empresas con propósito en América Latina.",
       ctaPrimary: "Contáctame",
       ctaSecondary: "Conoce mi Trayectoria",
       videoLabel: "Saludo en video",
       videoComingSoon:
-        "Próximamente — un saludo personal en tu idioma, con mi propia voz.",
+        "Próximamente: un saludo personal en tu idioma, con mi propia voz.",
       videoBadge: "Con voz de IA de ElevenLabs",
     },
     about: {
       heading: "Sobre Mí",
       body1:
-        "Soy Jaime Pérez Modolo — conocido como Jimmy — Ingeniero Civil Industrial con más de 8 años de experiencia construyendo y escalando empresas en Chile, México, Colombia y Perú. Actualmente lidero Pop Estate, una startup Proptech, como CEO &amp; Head of Revenue.",
+        "Soy Jaime Pérez Modolo, la mayoría me conoce como Jimmy. Soy Ingeniero Civil Industrial y llevo más de 8 años construyendo y escalando empresas en Chile, México, Colombia y Perú. Hoy lidero Pop Estate, una startup Proptech, como CEO y Head of Revenue.",
       body2:
-        "Más allá de las salas de directorio, soy instructor de yoga certificado, freediver, kitesurfista, y creo que el crecimiento profesional y personal son parte del mismo camino. Este sitio es donde conviven ambas historias.",
+        "Fuera del trabajo soy instructor de yoga certificado, freediver y kitesurfista. Creo que el crecimiento profesional y personal van de la mano, así que este sitio es donde conviven ambas historias.",
     },
     experience: {
       heading: "Trayectoria Profesional",
       intro:
-        "De la ingeniería a la energía renovable, HR tech y ahora Proptech — una década construyendo cosas que importan, además de dos emprendimientos propios.",
+        "Empecé en ingeniería, seguí en energía renovable, después HR tech y ahora Proptech. Una década construyendo cosas que importan, más dos emprendimientos propios en el camino.",
       ventureBadge: "Emprendimiento",
       linkedinLabel: "Post de LinkedIn",
       featuredPostsLabel: "Posts de LinkedIn destacados",
@@ -350,7 +350,7 @@ const TRANSLATIONS = {
           tag: "Emprendimiento Propio",
           isVenture: true,
           bullets: [
-            "TODO (por favor confirma/ajusta): Co-fundé Sowl, una marca chilena de kombucha — participé en el desarrollo de producto, la construcción de marca y su lanzamiento al mercado.",
+            "TODO (por favor confirma/ajusta): Co-fundé Sowl, una marca chilena de kombucha. Participé en el desarrollo de producto, la construcción de marca y su lanzamiento al mercado.",
           ],
           linkedinPosts: [],
           instagram: "https://www.instagram.com/sowl.cl/",
@@ -439,14 +439,14 @@ const TRANSLATIONS = {
     },
     personal: {
       heading: "Más Allá del Trabajo",
-      body: "Instructor de yoga, freediver y deportista de toda la vida. Creo en ir más lento para avanzar más rápido — la meditación y el movimiento me mantienen conectado mientras construyo empresas de alto crecimiento.",
+      body: "Instructor de yoga, freediver y deportista de toda la vida. Creo en ir más lento para avanzar más rápido, la meditación y el movimiento me mantienen con los pies en la tierra mientras construyo empresas de alto crecimiento.",
       items: [
         "Instructor de Yoga certificado 200h (YTT, 2019)",
         "Freediving L1 (SSI) &amp; Stress and Rescue Diving (SSI) certificado",
         "Retiro de meditación Vipassana de 10 días en silencio",
         "Certificado en RCP &amp; Primeros Auxilios (React Right)",
-        "Visa Work &amp; Holiday — Sídney, Australia (2017–2019)",
-        "Voluntariado social — Región de Atacama, Chile (2015), organizado por la FEUC",
+        "Visa Work &amp; Holiday en Sídney, Australia (2017–2019)",
+        "Voluntariado social en la Región de Atacama, Chile (2015), organizado por la FEUC",
         "Intereses: kitesurf, surf, fútbol, yoga",
         "Nacionalidad chilena e italiana",
       ],
@@ -461,11 +461,11 @@ const TRANSLATIONS = {
       instagramCta: "Instagram",
       agentHeading: "Agenda una reunión conmigo",
       agentIntro:
-        "Conversa aquí abajo con mi asistente de IA — pregúntale sobre mi trabajo y emprendimientos, o pídele que te ayude a encontrar 10 minutos en mi calendario.",
+        "Conversa aquí abajo con mi asistente de IA. Pregúntale sobre mi trabajo y emprendimientos, o pídele que te ayude a encontrar 10 minutos en mi calendario.",
       agentBadge: "Asistente de agendamiento con IA",
     },
     footer: {
-      tagline: "Jimmy Being — Líder en Revenue & Growth, Emprendedor e Instructor de Yoga.",
+      tagline: "Jimmy Being: Líder en Revenue & Growth, emprendedor e instructor de yoga.",
       rights: "© 2026 Jaime Pérez Modolo. Todos los derechos reservados.",
     },
   },
@@ -482,25 +482,25 @@ const TRANSLATIONS = {
       eyebrow: "Marca Pessoal",
       title: "Jimmy Being",
       subtitle:
-        "Líder em Revenue &amp; Growth · Empreendedor · Instrutor de Yoga — construindo empresas com propósito na América Latina.",
+        "Líder em Revenue &amp; Growth, empreendedor e instrutor de yoga. Construo empresas com propósito na América Latina.",
       ctaPrimary: "Fale Comigo",
       ctaSecondary: "Conheça Minha Trajetória",
       videoLabel: "Saudação em vídeo",
       videoComingSoon:
-        "Em breve — uma saudação pessoal no seu idioma, com minha própria voz.",
+        "Em breve: uma saudação pessoal no seu idioma, com minha própria voz.",
       videoBadge: "Com voz de IA da ElevenLabs",
     },
     about: {
       heading: "Sobre Mim",
       body1:
-        "Sou Jaime Pérez Modolo — conhecido como Jimmy — Engenheiro Civil Industrial com mais de 8 anos de experiência construindo e escalando empresas no Chile, México, Colômbia e Peru. Atualmente lidero a Pop Estate, uma startup Proptech, como CEO &amp; Head of Revenue.",
+        "Sou Jaime Pérez Modolo, a maioria me conhece como Jimmy. Sou Engenheiro Civil Industrial e há mais de 8 anos construo e escalo empresas no Chile, México, Colômbia e Peru. Hoje lidero a Pop Estate, uma startup Proptech, como CEO e Head of Revenue.",
       body2:
-        "Além das salas de reunião, sou instrutor de yoga certificado, praticante de apneia, kitesurfista, e acredito que o crescimento profissional e pessoal fazem parte da mesma jornada. Este site é onde as duas histórias se encontram.",
+        "Fora do trabalho, sou instrutor de yoga certificado, praticante de apneia e kitesurfista. Acredito que o crescimento profissional e pessoal andam juntos, por isso este site é onde as duas histórias se encontram.",
     },
     experience: {
       heading: "Trajetória Profissional",
       intro:
-        "Da engenharia à energia renovável, HR tech e agora Proptech — uma década construindo coisas que importam, além de dois empreendimentos próprios.",
+        "Comecei na engenharia, passei pela energia renovável, depois HR tech e agora Proptech. Uma década construindo coisas que importam, além de dois empreendimentos próprios pelo caminho.",
       ventureBadge: "Empreendimento",
       linkedinLabel: "Post no LinkedIn",
       featuredPostsLabel: "Posts do LinkedIn em destaque",
@@ -578,7 +578,7 @@ const TRANSLATIONS = {
           tag: "Empreendimento Próprio",
           isVenture: true,
           bullets: [
-            "TODO (favor confirmar/ajustar): Cofundei a Sowl, uma marca chilena de kombucha — participei do desenvolvimento do produto, construção de marca e lançamento no mercado.",
+            "TODO (favor confirmar/ajustar): Cofundei a Sowl, uma marca chilena de kombucha. Participei do desenvolvimento do produto, construção de marca e lançamento no mercado.",
           ],
           linkedinPosts: [],
           instagram: "https://www.instagram.com/sowl.cl/",
@@ -667,14 +667,14 @@ const TRANSLATIONS = {
     },
     personal: {
       heading: "Além do Trabalho",
-      body: "Instrutor de yoga, praticante de apneia e atleta a vida toda. Acredito em desacelerar para avançar mais rápido — a meditação e o movimento me mantêm presente enquanto construo empresas de alto crescimento.",
+      body: "Instrutor de yoga, praticante de apneia e atleta a vida toda. Acredito em desacelerar para avançar mais rápido, a meditação e o movimento me mantêm presente enquanto construo empresas de alto crescimento.",
       items: [
         "Instrutor de Yoga certificado 200h (YTT, 2019)",
         "Freediving L1 (SSI) &amp; Stress and Rescue Diving (SSI) certificado",
         "Retiro de meditação Vipassana de 10 dias em silêncio",
         "Certificado em RCP &amp; Primeiros Socorros (React Right)",
-        "Visto Work &amp; Holiday — Sydney, Austrália (2017–2019)",
-        "Voluntariado social — Região de Atacama, Chile (2015), organizado pela FEUC",
+        "Visto Work &amp; Holiday em Sydney, Austrália (2017–2019)",
+        "Voluntariado social na Região de Atacama, Chile (2015), organizado pela FEUC",
         "Interesses: kitesurf, surf, futebol, yoga",
         "Nacionalidade chilena e italiana",
       ],
@@ -689,11 +689,11 @@ const TRANSLATIONS = {
       instagramCta: "Instagram",
       agentHeading: "Agende um horário comigo",
       agentIntro:
-        "Converse aqui embaixo com meu assistente de IA — pergunte sobre meu trabalho e empreendimentos, ou peça ajuda para encontrar 10 minutos na minha agenda.",
+        "Converse aqui embaixo com meu assistente de IA. Pergunte sobre meu trabalho e empreendimentos, ou peça ajuda para encontrar 10 minutos na minha agenda.",
       agentBadge: "Assistente de agendamento com IA",
     },
     footer: {
-      tagline: "Jimmy Being — Líder em Revenue & Growth, Empreendedor e Instrutor de Yoga.",
+      tagline: "Jimmy Being: Líder em Revenue & Growth, empreendedor e instrutor de yoga.",
       rights: "© 2026 Jaime Pérez Modolo. Todos os direitos reservados.",
     },
   },
