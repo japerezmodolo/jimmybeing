@@ -26,7 +26,7 @@ const TRANSLATIONS = {
       eyebrow: "Personal Brand",
       title: "Jimmy Being",
       subtitle:
-        "Revenue &amp; Growth Leader, entrepreneur, and yoga instructor. I build purposeful companies across Latin America.",
+        "Revenue &amp; Growth, Leadership and Entrepreneur. I build & work with purspose across Latin America.",
       ctaPrimary: "Get in Touch",
       ctaSecondary: "See My Journey",
       videoLabel: "Video greeting",
@@ -67,9 +67,9 @@ const TRANSLATIONS = {
               url: "https://www.linkedin.com/posts/jaime-p%C3%A9rez-modolo-0a7b57b8_el-real-estate-es-un-negocio-de-ladrillos-activity-7442973743766728705-HXuf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABkWSL8BHMWWlPhbVlZdQKxf9tQSlvLWEFU",
               title: "El real estate es un negocio de ladrillos…",
             },
-            { url: "https://lnkd.in/p/dfAnH5Py", title: null },
-            { url: "https://lnkd.in/p/ddYcRdP2", title: null },
-            { url: "https://lnkd.in/p/dN-wDjXB", title: null },
+            { url: "https://lnkd.in/p/dfAnH5Py", title: "Starting the year.." },
+            { url: "https://lnkd.in/p/ddYcRdP2", title: "Thoughts.." },
+            { url: "https://lnkd.in/p/dN-wDjXB", title: "Pop Estate in the real world" },
           ],
         },
         {
@@ -124,7 +124,7 @@ const TRANSLATIONS = {
           bullets: [
             "TODO (please confirm/refine): Co-founded Sowl, a Chilean kombucha brand. I was involved in product development, brand building, and go-to-market from launch.",
           ],
-          linkedinPosts: [],
+         
           instagram: "https://www.instagram.com/sowl.cl/",
         },
         {
@@ -136,7 +136,7 @@ const TRANSLATIONS = {
           bullets: [
             "Led the commercial operations of a solar energy startup focused on distributed generation under the ESCO model.",
           ],
-          linkedinPosts: [],
+         
         },
         {
           period: "2019 — 2020",
@@ -145,11 +145,11 @@ const TRANSLATIONS = {
           tag: "Solar Energy",
           isVenture: false,
           bullets: [
-            "Evaluated, sold, and closed solar energy projects via direct sales and ESCO financing (leasing / PPA).",
+            "Evaluated, sold, and built solar energy projects via turnkey and ESCO financing model (leasing / PPA).",
             "Led capital-raising processes and negotiated a potential joint venture between Kyklos and Rising Sun.",
             "Grew the pipeline by $12M USD.",
           ],
-          linkedinPosts: [],
+         
         },
         {
           period: "2017",
@@ -160,7 +160,7 @@ const TRANSLATIONS = {
           bullets: [
             "Led the shift from plastic to reusable bags, saving $30K USD per year.",
           ],
-          linkedinPosts: [],
+         
         },
         {
           period: "2011 — 2017",
@@ -171,7 +171,6 @@ const TRANSLATIONS = {
           bullets: [
             "University teaching assistant and private tutor throughout university.",
           ],
-          linkedinPosts: [],
         },
       ],
     },
@@ -211,7 +210,7 @@ const TRANSLATIONS = {
     },
     personal: {
       heading: "Beyond Work",
-      body: "Yoga instructor, freediver, and lifelong athlete. I believe in slowing down to move faster, meditation and movement keep me grounded while I build fast-growing companies.",
+      body: "I love learning and challenging myself constantly. Amateur sportsman, I practice surf, yoga, freediving and I love to escape winter to Brasil to practice Kitesurf. I try to find balance between hardwork and a healthy lifestyle.",
       items: [
         "200h certified Yoga Instructor (YTT, 2019)",
         "Freediving L1 (SSI) &amp; Stress and Rescue Diving (SSI) certified",
@@ -225,7 +224,7 @@ const TRANSLATIONS = {
     },
     contact: {
       heading: "Let's Connect",
-      body: "Interested in working together, investing, or just want to say hi? Reach out below.",
+      body: "Interested in working together, or just want to say hi? Reach out below!",
       emailCta: "Email Me",
       whatsappCta: "WhatsApp",
       whatsappMessage: "Hi Jimmy, I saw your website and wanted to reach out!",
@@ -237,7 +236,7 @@ const TRANSLATIONS = {
       agentBadge: "AI scheduling assistant",
     },
     footer: {
-      tagline: "Jimmy Being: Revenue & Growth Leader, Entrepreneur, and Yoga Instructor.",
+      tagline: "Jimmy Being: Revenue & Growth, Leadership and Entrepreneur.",
       rights: "© 2026 Jaime Pérez Modolo. All rights reserved.",
     },
   },
@@ -254,7 +253,7 @@ const TRANSLATIONS = {
       eyebrow: "Marca Personal",
       title: "Jimmy Being",
       subtitle:
-        "Líder en Revenue &amp; Growth, emprendedor e instructor de yoga. Construyo empresas con propósito en América Latina.",
+        "Revenue &amp; Growth, buen líder y emprendedor. Construyo y trabajo en empresas con propósito en LATAM.",
       ctaPrimary: "Contáctame",
       ctaSecondary: "Conoce mi Trayectoria",
       videoLabel: "Saludo en video",
@@ -265,14 +264,14 @@ const TRANSLATIONS = {
     about: {
       heading: "Sobre Mí",
       body1:
-        "Soy Jaime Pérez Modolo, la mayoría me conoce como Jimmy. Soy Ingeniero Civil Industrial y llevo más de 8 años construyendo y escalando empresas en Chile, México, Colombia y Perú. Hoy lidero Pop Estate, una startup Proptech, como CEO y Head of Revenue.",
+        "Soy Jaime Pérez Modolo, la mayoría me conoce como Jimmy. Soy Ingeniero Civil Industrial y llevo más de 8 años construyendo y escalando productos en Chile, México, Colombia y Perú. Hoy lidero Pop Estate, una startup Proptech, como Gerente General.",
       body2:
-        "Fuera del trabajo soy instructor de yoga certificado, freediver y kitesurfista. Creo que el crecimiento profesional y personal van de la mano, así que este sitio es donde conviven ambas historias.",
+        "Fuera del trabajo me gusta aprender y desafiarme constantemente. Practico surf, yoga, apnea y trato de escaparme al nordeste de Brasil a hacer kitesurf de vez en cuando. Creo que el crecimiento profesional y personal van de la mano, así que este sitio es donde conviven ambas historias.",
     },
     experience: {
       heading: "Trayectoria Profesional",
       intro:
-        "Empecé en ingeniería, seguí en energía renovable, después HR tech y ahora Proptech. Una década construyendo cosas que importan, más dos emprendimientos propios en el camino.",
+        "Empecé en ingeniería, luego energía renovable, después HR tech y ahora Proptech. Una década construyendo proyectos que generan valor, más dos emprendimientos propios que intenté en el camino.",
       ventureBadge: "Emprendimiento",
       linkedinLabel: "Post de LinkedIn",
       featuredPostsLabel: "Posts de LinkedIn destacados",
@@ -295,9 +294,9 @@ const TRANSLATIONS = {
               url: "https://www.linkedin.com/posts/jaime-p%C3%A9rez-modolo-0a7b57b8_el-real-estate-es-un-negocio-de-ladrillos-activity-7442973743766728705-HXuf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABkWSL8BHMWWlPhbVlZdQKxf9tQSlvLWEFU",
               title: "El real estate es un negocio de ladrillos…",
             },
-            { url: "https://lnkd.in/p/dfAnH5Py", title: null },
-            { url: "https://lnkd.in/p/ddYcRdP2", title: null },
-            { url: "https://lnkd.in/p/dN-wDjXB", title: null },
+            { url: "https://lnkd.in/p/dfAnH5Py", title: "Inicio de año.." },
+            { url: "https://lnkd.in/p/ddYcRdP2", title: "Una reflexión.." },
+            { url: "https://lnkd.in/p/dN-wDjXB", title: "Pop Estate en la vía pública" },
           ],
         },
         {
@@ -309,7 +308,7 @@ const TRANSLATIONS = {
           bullets: [
             "Una red social motivacional basada en accountability: en vez de followers, las personas tenían \"supporters\" que las ayudaban a lograr sus objetivos personales.",
           ],
-          linkedinPosts: [],
+          
           instagram: "https://www.instagram.com/kudoz.app/",
         },
         {
@@ -352,7 +351,7 @@ const TRANSLATIONS = {
           bullets: [
             "TODO (por favor confirma/ajusta): Co-fundé Sowl, una marca chilena de kombucha. Participé en el desarrollo de producto, la construcción de marca y su lanzamiento al mercado.",
           ],
-          linkedinPosts: [],
+          l
           instagram: "https://www.instagram.com/sowl.cl/",
         },
         {
@@ -364,7 +363,7 @@ const TRANSLATIONS = {
           bullets: [
             "Lideré las operaciones comerciales de una startup de energía solar enfocada en generación distribuida bajo el modelo ESCO.",
           ],
-          linkedinPosts: [],
+        
         },
         {
           period: "2019 — 2020",
@@ -373,11 +372,10 @@ const TRANSLATIONS = {
           tag: "Energía Solar",
           isVenture: false,
           bullets: [
-            "Evalué, vendí y cerré proyectos de energía solar mediante venta directa y financiamiento ESCO (leasing / PPA).",
+            "Evalué, vendí y construí proyectos de energía solar llave en mano y con financiamiento ESCO (leasing / PPA).",
             "Lideré procesos de levantamiento de capital y negocié una potencial Joint Venture entre Kyklos y Rising Sun.",
             "Hice crecer el pipeline en $12MM USD.",
           ],
-          linkedinPosts: [],
         },
         {
           period: "2017",
@@ -388,7 +386,6 @@ const TRANSLATIONS = {
           bullets: [
             "Lideré el cambio de bolsas plásticas a reutilizables, ahorrando $30K USD al año.",
           ],
-          linkedinPosts: [],
         },
         {
           period: "2011 — 2017",
@@ -399,7 +396,6 @@ const TRANSLATIONS = {
           bullets: [
             "Ayudante de cátedra universitario y profesor particular durante toda la universidad.",
           ],
-          linkedinPosts: [],
         },
       ],
     },
@@ -435,11 +431,11 @@ const TRANSLATIONS = {
         "Microsoft Office · Claude · SQL (Intermedio) · CRM HubSpot &amp; Pipedrive · Jira · Notion · Slack",
       businessLabel: "Negocios",
       business:
-        "B2B SaaS · Expansión LATAM · Crecimiento de Ingresos · Partnerships · Product Management · Energía Solar",
+        "B2B SaaS · Expansión LATAM · Growth · Partnerships · Product Management · Energía Solar",
     },
     personal: {
       heading: "Más Allá del Trabajo",
-      body: "Instructor de yoga, freediver y deportista de toda la vida. Creo en ir más lento para avanzar más rápido, la meditación y el movimiento me mantienen con los pies en la tierra mientras construyo empresas de alto crecimiento.",
+      body: "Me gusta aprender y desafiarme constantemente. Deportista amateur, practico yoga, surf y buceo entre otras disciplinas. Busco el equilibrio entre el trabajo duro y la vida saludable.",
       items: [
         "Instructor de Yoga certificado 200h (YTT, 2019)",
         "Freediving L1 (SSI) &amp; Stress and Rescue Diving (SSI) certificado",
@@ -453,7 +449,7 @@ const TRANSLATIONS = {
     },
     contact: {
       heading: "Conversemos",
-      body: "¿Te interesa trabajar juntos, invertir, o simplemente saludar? Escríbeme.",
+      body: "¿Te interesa trabajar juntos o simplemente saludar? Escríbeme.",
       emailCta: "Escríbeme",
       whatsappCta: "WhatsApp",
       whatsappMessage: "Hola Jimmy, vi tu página y quería escribirte!",
@@ -465,7 +461,7 @@ const TRANSLATIONS = {
       agentBadge: "Asistente de agendamiento con IA",
     },
     footer: {
-      tagline: "Jimmy Being: Líder en Revenue & Growth, emprendedor e instructor de yoga.",
+      tagline: "Jimmy Being: Revenue &amp; Growth, buen líder y emprendedor.",
       rights: "© 2026 Jaime Pérez Modolo. Todos los derechos reservados.",
     },
   },
@@ -482,7 +478,7 @@ const TRANSLATIONS = {
       eyebrow: "Marca Pessoal",
       title: "Jimmy Being",
       subtitle:
-        "Líder em Revenue &amp; Growth, empreendedor e instrutor de yoga. Construo empresas com propósito na América Latina.",
+        "Revenue &amp; Growth, empreendedor e líder. Construo e trabalho com propósito na América Latina.",
       ctaPrimary: "Fale Comigo",
       ctaSecondary: "Conheça Minha Trajetória",
       videoLabel: "Saudação em vídeo",
@@ -493,9 +489,9 @@ const TRANSLATIONS = {
     about: {
       heading: "Sobre Mim",
       body1:
-        "Sou Jaime Pérez Modolo, a maioria me conhece como Jimmy. Sou Engenheiro Civil Industrial e há mais de 8 anos construo e escalo empresas no Chile, México, Colômbia e Peru. Hoje lidero a Pop Estate, uma startup Proptech, como CEO e Head of Revenue.",
+        "Sou Jaime Pérez Modolo, a maioria me conhece como Jimmy. Sou Engenheiro Civil Industrial e há mais de 8 anos construo e escalo produtos no Chile, México, Colômbia e Peru. Hoje lidero a Pop Estate, uma startup Proptech como CEO.",
       body2:
-        "Fora do trabalho, sou instrutor de yoga certificado, praticante de apneia e kitesurfista. Acredito que o crescimento profissional e pessoal andam juntos, por isso este site é onde as duas histórias se encontram.",
+        "Fora do trabalho, eu faço surf, yoga, apneia e gosto do visitar o nordeste do brasil para praticar kitesurfista. Acredito que o crescimento profissional e pessoal andam juntos, por isso este site é onde as duas histórias se encontram.",
     },
     experience: {
       heading: "Trajetória Profissional",
@@ -509,7 +505,7 @@ const TRANSLATIONS = {
       timeline: [
         {
           period: "2024 — Atual",
-          role: "CEO &amp; Head of Revenue",
+          role: "Chief Executive Officer",
           company: "Pop Estate",
           tag: "Software de Gestão de Propriedades (PMS)",
           isVenture: false,
@@ -523,9 +519,9 @@ const TRANSLATIONS = {
               url: "https://www.linkedin.com/posts/jaime-p%C3%A9rez-modolo-0a7b57b8_el-real-estate-es-un-negocio-de-ladrillos-activity-7442973743766728705-HXuf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABkWSL8BHMWWlPhbVlZdQKxf9tQSlvLWEFU",
               title: "El real estate es un negocio de ladrillos…",
             },
-            { url: "https://lnkd.in/p/dfAnH5Py", title: null },
-            { url: "https://lnkd.in/p/ddYcRdP2", title: null },
-            { url: "https://lnkd.in/p/dN-wDjXB", title: null },
+            { url: "https://lnkd.in/p/dfAnH5Py", title: "Inicio de año.." },
+            { url: "https://lnkd.in/p/ddYcRdP2", title: "Uma reflexão.."},
+            { url: "https://lnkd.in/p/dN-wDjXB", title: "O painel publicitário" },
           ],
         },
         {
@@ -535,9 +531,8 @@ const TRANSLATIONS = {
           tag: "Empreendimento Próprio",
           isVenture: true,
           bullets: [
-            "Uma rede social motivacional baseada em accountability: em vez de followers, as pessoas tinham \"supporters\" que as ajudavam a alcançar seus objetivos pessoais.",
+            "Uma rede motivacional baseada em accountability: em vez de followers, as pessoas tinham \"supporters\" que as ajudavam a alcançar seus objetivos pessoais.",
           ],
-          linkedinPosts: [],
           instagram: "https://www.instagram.com/kudoz.app/",
         },
         {
@@ -580,7 +575,7 @@ const TRANSLATIONS = {
           bullets: [
             "TODO (favor confirmar/ajustar): Cofundei a Sowl, uma marca chilena de kombucha. Participei do desenvolvimento do produto, construção de marca e lançamento no mercado.",
           ],
-          linkedinPosts: [],
+          
           instagram: "https://www.instagram.com/sowl.cl/",
         },
         {
@@ -592,7 +587,7 @@ const TRANSLATIONS = {
           bullets: [
             "Liderei as operações comerciais de uma startup de energia solar focada em geração distribuída sob o modelo ESCO.",
           ],
-          linkedinPosts: [],
+         
         },
         {
           period: "2019 — 2020",
@@ -601,11 +596,11 @@ const TRANSLATIONS = {
           tag: "Energia Solar",
           isVenture: false,
           bullets: [
-            "Avaliei, vendi e fechei projetos de energia solar via venda direta e financiamento ESCO (leasing / PPA).",
+            "Avaliei, vendi e construí projetos de energia solar via chave-na-mão e financiamento ESCO (leasing / PPA).",
             "Liderei processos de captação de capital e negociei uma potencial joint venture entre Kyklos e Rising Sun.",
             "Aumentei o pipeline em US$ 12 milhões.",
           ],
-          linkedinPosts: [],
+         
         },
         {
           period: "2017",
@@ -616,7 +611,7 @@ const TRANSLATIONS = {
           bullets: [
             "Liderei a troca de sacolas plásticas por reutilizáveis, economizando US$ 30 mil por ano.",
           ],
-          linkedinPosts: [],
+   
         },
         {
           period: "2011 — 2017",
@@ -627,7 +622,7 @@ const TRANSLATIONS = {
           bullets: [
             "Monitor universitário e professor particular durante toda a graduação.",
           ],
-          linkedinPosts: [],
+       
         },
       ],
     },
@@ -693,7 +688,7 @@ const TRANSLATIONS = {
       agentBadge: "Assistente de agendamento com IA",
     },
     footer: {
-      tagline: "Jimmy Being: Líder em Revenue & Growth, empreendedor e instrutor de yoga.",
+      tagline: "Jimmy Being: Revenue & Growth, empreendedor e líder.",
       rights: "© 2026 Jaime Pérez Modolo. Todos os direitos reservados.",
     },
   },
